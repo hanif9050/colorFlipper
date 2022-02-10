@@ -5,6 +5,45 @@
   padding: 0;
   box-sizing: border-box;
 }
+.nav {
+  display: grid;
+  align-items: center;
+  height: 3rem;
+  /* place-content: center; */
+  background-color: lavenderblush;
+}
+.nav-container {
+  width: 90vw;
+  max-width: 80rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-links {
+  display: flex;
+  gap: 1rem;
+}
+.nav-container > ul > li {
+  list-style: none;
+}
+.nav-container > ul > li > a {
+  text-decoration: none;
+}
 .bg-color {
-  min-height: calc(100vh - 100px);
+  min-height: calc(100vh - 3rem);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  padding: 0.5rem 1rem;
+  /* outline: none; */
+  border: none;
+  border-radius: 2rem;
+  background: blanchedalmond;
+  color: red;
+  font-weight: 700;
 }
