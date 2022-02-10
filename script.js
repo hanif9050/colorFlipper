@@ -15,9 +15,3 @@ btnChange.addEventListener("click", () => {
   colorName.textContent = rgb;
 });
 //
-const hex = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, "A", "B", "C", "D", "E", "F"];
-hexGenerator = () => {
-  return Math.floor(Math.random() * (hex.length - 1));
-};
-const result = randomColor();
-console.log(hex[hexGenerator()]);
